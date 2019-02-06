@@ -1,0 +1,14 @@
+---
+title: "Capstone Project"
+author: "Daniel Duncum"
+date: "February 5, 2019"
+output: html_document
+---
+
+I have selected the data set Regular Season Winning Percentages of World Series Champions from 1903-2016.  I believe this analysis will solve the problem of when to trade for players or become a seller during the season up until the trade deadline.  This will allow Major League Baseball teams to know if their team's play is within a window of win percentage that these champions had.  So if you are below the average win percentage for example you would become a seller of your top assets to acquire pieces to allow you to get better in the future. On the flip side if your teams win percentage is above this average then you would become buyers and added pieces needed to make a run this year at a championship.  
+
+The data I acquired was from Data World and is an excel spreadsheet of Regular Season Winning Percentages of World Series Champions from 1903-2016.  
+
+I believe the best approach would be to create a plot graph with each team being a data point on this graph so one could see where their teams rank compared to past champions.  The x axis would be year with the y axis being winning percentage.  I would also edit the data from only 1969 to present as that is when the pitching mound was lowered to eliminate and end the "dead ball era" where pitching dominated.  Also in 1970-1975 MLB players sued to become free agents so this is also around the beginning of the free agency period in MLB so that would be better for todays teams to see that analysis to make determination if their team has a shot at a World Championship. 
+
+I would be using R coding such as ggplot and add_predictions and geom_line to showcase a plot graph with a line to show the average winning percentage to give a more striking and appealing visual to a team. 
